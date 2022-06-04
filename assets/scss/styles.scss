@@ -1,2 +1,18 @@
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+
+// customizing existing variables 
+$pink: #cf649a;
+$danger: $pink;
+
+// theme-colors
+$theme-colors: (
+    "danger": $danger
+);
+
 // Importing all Bootstrap source files
 @import "../../node_modules/bootstrap/scss/bootstrap";
