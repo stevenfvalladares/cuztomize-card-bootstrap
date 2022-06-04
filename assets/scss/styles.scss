@@ -39,3 +39,10 @@ $utilities: map-merge(
 // Importing all Bootstrap source files
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+// Importing fonts google
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+
+:root {
+    --bs-font-dancing-script: 'Dancing Script', cursive;
+    --bs-body-font-family: var(--bs-font-dancing-script);
+}
